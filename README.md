@@ -105,7 +105,7 @@ cond(status_,
 
 # Lists
 
-What about lists? List's are tricky, because you don't want to re-render the entire list every time a new list appears, so just like with virtual diffing we use keys.
+What about lists? Lists are tricky, because you don't want to re-render the entire list every time a new list appears, so just like with virtual diffing we use keys.
 
 ```javascript
 import {
