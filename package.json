@@ -1,7 +1,7 @@
 {
   "name": "moopdom",
   "version": "0.1.0",
-  "description": "Fast, Declarative DOM without virtual diffing.",
+  "description": "Fast, scalable, declarative DOM without virtual diffing.",
   "main": "lib/index.js",
   "scripts": {
     "dev": "npm run server:dev",
@@ -58,17 +58,17 @@
     "webpack": "^2.1.0-beta.22",
     "webpack-dashboard": "^0.2.1",
     "webpack-dev-server": "2.2.0",
-    "xstream": "^10.5.0"
-  },
-  "peerDependencies": {
-    "xstream": "^10.5.0"
-  },
-  "dependencies": {
+    "xstream": "^10.5.0",
     "@types/chai": "^3.4.35",
     "@types/color": "^1.0.1",
     "@types/karma": "^0.13.34",
     "@types/mocha": "^2.2.40",
     "@types/sinon": "^2.1.2",
     "color": "^1.0.3"
+  },
+  "peerDependencies": {
+    "xstream": "^10.5.0"
+  },
+  "dependencies": {
   }
 }
