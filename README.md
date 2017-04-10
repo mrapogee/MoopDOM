@@ -116,7 +116,7 @@ import xs from 'xstream'
 
 const list_ = xs.of([{id: 'test', name: 'test'}, {}])
 
-// Get's the property from a stream of objects
+// Gets the keys value from a stream of objects
 const pluck = <T> (key: keyof T, stream: Stream<T>): Stream<T[typeof key]> =>
   stream.map(v => v[key])
 
