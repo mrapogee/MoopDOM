@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "target": "es2015",
+    "baseUrl": "./src",
+    "paths": {
+      "lib/*": ["./lib/*"]
+    }
+  }
+}
